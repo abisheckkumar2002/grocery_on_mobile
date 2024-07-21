@@ -1,0 +1,224 @@
+.myorders{
+    padding: 20px 0px;
+}
+.sideno{
+    font-size: 15px;
+    background: #0b316e;
+    padding: 5px 14px;
+    color: white;
+}
+.list-group-item-action {
+    transition: 0.5s;
+}
+.list-group-item-action:hover {
+    background-color: #0c3270 !important;
+    color: white !important;
+    transition: 0.5s;
+}
+.myorder1 .ggg{
+    background: #0c3270;
+    color: white !important;
+    margin-bottom: 2%;
+}
+.myorder1 .ggg:hover{
+    background: #0c3270;
+    color: white !important;
+}
+.myorders .card{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 10px 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+.myorder .viewwishbtn {
+    border: 1px;
+    background-color: red !important;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorders .card2{
+    padding: 20px 30px !important;
+}
+.freebold{
+    font-weight: 700 !important;
+}
+.myorders .cart-address{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   }
+   .myorders .editAddress {
+    /* color: #0c3270; */
+    color: white;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    /* margin-right: 12px; */
+   }
+   .myorders .deleteAddress{
+    /* color: red; */
+    color: white;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+
+   }
+   .myorders .editz{
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+    margin-top: 0px !important;
+    margin-right: 12px;
+   }
+   .myorders .deletez{
+    background-color: red !important;
+    border-color: red !important;
+   }
+   .myorders .form-check-input {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+}
+.addy{
+height: 400px;
+overflow-y: auto;
+}
+.noaddress{
+    font-size: 22px;
+    margin-top: 15%;
+}
+
+.myorder .greenbtn{
+    border: 1px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .redbtn{
+    border: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .yellowbtn{
+    border: 1px;
+    background-color: yellow;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .orangebtn{
+    border: 1px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.myorder .bluebtn{
+    border: 1px;
+    background-color: rgb(67, 67, 214);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .rosebtn{
+    border: 1px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .graybtn{
+    border: 1px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .brownbtn{
+    border: 1px;
+    background-color: rgb(184, 119, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.myorder .blackbtn{
+    border: 1px;
+    background-color: #1b80ca;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.swal-text{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: ui-monospace;
+}
+
+.confirm-box {
+    z-index: 1000 !important;
+    position: fixed !important;
+    left: 45%;
+    top: 45%;
+    width: 100% !important;
+    height: 100% !important;
+}
+.confirmable-button{
+    background-color: #1b80ca !important;
+}
+.ordertable{
+    height: 450px;
+    overflow-y: auto;
+}
+
+.myorder .deletebtnz {
+    border: 1px;
+    background-color: #ff00008c !important;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.yesbtn{
+    color: #fff !important;
+    background-color: #0b316e;
+    border-color: #0b316e;
+}
+.orderdetailss{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+.profile__body{
+    display: none !important;
+}
+.confirm-box {
+    left: 10%;
+}
+}

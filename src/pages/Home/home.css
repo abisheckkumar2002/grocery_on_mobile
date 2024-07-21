@@ -1,0 +1,154 @@
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    transition: 0.5s;
+}
+.caro-pad{
+    padding: 0px 25px;
+}
+.slick-prev {
+    left: -30px !important;
+    transition: 0.5s !important;
+}
+.slick-next {
+    right: -13px !important;
+    transition: 0.5s !important;
+}
+/* .navbar-light .navbar-toggler-icon {
+    background-image: url('../../assets/menu2.jpg') !important;
+} */
+
+.category-img{
+    /* width: 90%;
+    margin: auto;
+    margin-top: 4px;
+    height: 160px; */
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+.category-img1{
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+.hearticons{
+    padding: 0px 10px;
+    text-align: end;
+    margin-top: 4px;
+}
+/* .hearticons i:hover{
+ color: red;
+} */
+
+.confirmable-button{
+    border: 1px solid #0c3270 !important;
+    background-color: #0c3270 !important;
+    color: #ffff !important;
+}
+
+
+.outofstack{
+    /* width: 50%;
+    height: 10%;
+    background-color: red;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 6%; */
+    text-align: center;
+}
+.outofstack_text{
+    /* text-align: center; */
+    color: red;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* .looo .slick-prev {
+    left: -5px !important;
+    transition: 0.5s !important;
+    z-index: 7777;
+}
+.looo .slick-next {
+    right: -2px !important;
+    transition: 0.5s !important;
+}
+.looo .slick-prev:before {
+    font-size: 25px !important;
+    transition: 0.5s;
+    color: #021330 !important;
+}
+.looo .slick-next:before {
+    font-size: 25px !important;
+    transition: 0.5s;
+    color: #021330 !important;
+} */
+
+.carousel-indicators{
+    display: none;
+}
+.addcount{
+    font-weight: 600;
+    font-size: 18px;
+}
+.category-title{
+    font-size: 16px !important;
+    color: #0c3270 !important;
+    font-weight: 600 !important;
+    /* font-family: initial !important; */
+    font-family: 'Poppins', sans-serif;
+}
+.grocerylastbanner{
+    text-align: center;
+}
+.downloadnoww{
+    background: url("../../assets/grocery\ banner.png");
+    padding: 15% 0%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caption1 {
+    right: -45%;
+    bottom: -8px;
+}
+.caption1 .imag1{
+       
+}
+.caption2{
+    right: -24%;
+    bottom: 40%;
+}
+.cardiconflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .caption1 .imag1{
+       width: 20%;
+    }
+    .caption2 .imag1{
+        width: 20%;
+     }
+    .caption1 {
+        right: -18%;
+        bottom: -16px;
+    }
+    .caption2{
+        right: -20%;
+        bottom: 29%;
+    }
+    .downloadnoww .images{
+        width: 20%;
+    }
+    .grocerylastbanner{
+        text-align: end;
+    }
+    .caro-pad{
+        padding: 0px 0px;
+    }
+  }

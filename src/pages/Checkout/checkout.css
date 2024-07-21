@@ -1,0 +1,72 @@
+.finalcheckout  .btn-outline-success{
+    color: black !important;
+    border-color: #198754 !important;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.btn-outline-success:hover{
+    color: #ffff !important;
+    border-color: #198754 !important;
+}
+.error{
+    color: red;
+    font-size: 14px;
+}
+
+.lst3btn1{
+border: 1px solid #0b316e6b;
+background-color: #0b316e6b !important;
+color: rgb(255, 255, 255);
+border-radius: 5px;
+padding: 6px 8px;
+font-size: 14px;
+font-weight: 500;
+margin: 20px 5px !important;
+}
+.couponstart{
+   padding: 20px;
+   margin-top: 10px;
+}
+.coupbtnz{
+    border: 1px solid #0b316e;
+background-color: #0b316e !important;
+}
+.coupbtnz:hover{
+    color: white !important;
+    border: 1px solid #0b316e;
+background-color: #0b316e !important;
+}
+.paylabel{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.frr input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #198754;
+  }
+ .frr input:focus {
+    border-color: green;
+    outline: 1px dotted #000
+  }
+  .tipfield{
+    border: 1px solid #198754;
+    border-radius: 2px;
+    margin-left: 4px;
+    padding: 4px;
+  }
+  .savings{
+    border: 1px solid #0c3270;
+    padding: 8px;
+    background: #0c3270;
+    color: white;
+    border-radius: 4px;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .selectdelivery{
+        margin-top: 3%;
+    }
+  }

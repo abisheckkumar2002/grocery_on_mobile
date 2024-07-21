@@ -1,0 +1,10 @@
+.MuiPagination-ul{
+    justify-content: center;
+}
+
+.loaderss{
+    padding: 15% 0%;
+}
+.loaderss svg{
+  margin: auto !important;
+}

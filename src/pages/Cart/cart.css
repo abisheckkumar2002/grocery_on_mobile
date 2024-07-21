@@ -1,0 +1,54 @@
+.aaa{
+    background: #ffff;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+    border: 1px solid #00000030;
+}
+.ko{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.detailzz{
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    display: unset !important;
+}
+.redzbtn{
+    border: 1px solid #bf0b32 !important;
+    background-color: #bf0b32 !important;
+}
+.overfloww{
+    height: 400px;
+    overflow-y: auto;
+}
+.addchanges{
+  color: #0d6efd;
+  text-decoration: underline !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+.mabo{
+  margin-bottom: 0px !important;
+}
+.react-datepicker-wrapper input{
+  width: 100%;
+  margin-top: 5%;
+}
+.zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 3s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.9, 0.9);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

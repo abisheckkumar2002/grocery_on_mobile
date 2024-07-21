@@ -1,0 +1,9 @@
+.copyright-segment{
+    text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright-segment{
+        text-align: start;
+    }
+  }

@@ -1,0 +1,24 @@
+
+.firstsearch{
+    text-align: center;
+}
+
+.firstsearch h1{
+color: gray;
+font-family: fangsong;
+font-size: 70px;
+margin-left: 5%;
+}
+.search-bottom{
+    border-bottom: 2px solid #4d4d4d42;
+}
+.product-search{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.se .caro-pad{
+    margin-bottom: 3%;
+}
+.justifyend{
+    justify-content: end;
+}
