@@ -8,7 +8,7 @@ export const accountdetaildatas = async (reqData,token) => {
    
 
     try {
-        const accountdetailpage = await axios({
+        const accountdetailpage =   await axios({
             method: "get",
             url: `${ACCOUNTPROFILE_URL}`,
             headers: {
